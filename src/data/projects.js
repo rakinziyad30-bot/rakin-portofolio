@@ -1,0 +1,136 @@
+export const projectsData = [
+  {
+    id: 'PRJ-01',
+    index: '01',
+    title: 'TO-DO LIST WEB APP',
+    category: 'Web Application // Client-Side State & Auth Flow',
+    layoutVariant: 'split-left',
+    description:
+      'A task management application featuring user registration, login, user-specific data storage using localStorage, time validation, and task deletion.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'localStorage'],
+    coreCapabilities: [
+      'User registration and login authentication flow',
+      'User-specific data isolation and persistence using browser localStorage',
+      'Time validation logic for scheduled tasks',
+      'Interactive task creation and task deletion management',
+    ],
+    architectureType: 'DOM Manipulation & Structured LocalStorage Key-Value Store',
+    screenshotPlaceholder: {
+      status: 'ASSET PLACEHOLDER — SCREENSHOT NOT PROVIDED',
+      schematicTitle: 'UI WIREFRAME // AUTH + TASK QUEUE VIEW',
+      rows: [
+        { label: 'SESSION_USER', value: 'user_isolated_storage [ACTIVE]' },
+        { label: 'TIME_VALIDATION', value: 'VALIDATED // 09:00 WIB' },
+        { label: 'TASK_ACTION', value: 'REGISTER | LOGIN | VALIDATE | DELETE' },
+      ],
+    },
+    links: {
+      githubProfile: 'https://github.com/rakinziyad30-bot',
+      repoUrl: 'https://github.com/rakinziyad30-bot/ToDoList',
+      repoLabel: 'rakinziyad30-bot/ToDoList',
+      demoUrl: 'https://rakinziyad30-bot.github.io/ToDoList/',
+      demoLabel: 'rakinziyad30-bot.github.io/ToDoList',
+      demoPlaceholderLabel: 'Live Demo [Placeholder — URL Not Provided]',
+    },
+  },
+  {
+    id: 'PRJ-02',
+    index: '02',
+    title: 'EXPENSE TRACKER',
+    category: 'Financial Utility // Ledger & Balance Computation',
+    layoutVariant: 'split-right',
+    description:
+      'An application for tracking income and expenses, featuring balance summaries, transaction history, and user-specific data storage.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'localStorage'],
+    coreCapabilities: [
+      'Income and expense entry tracking',
+      'Dynamic balance summaries calculation',
+      'Chronological transaction history log',
+      'User-specific persistent data storage via localStorage',
+    ],
+    architectureType: 'Client-Side Ledger Calculation & User-Scoped Storage',
+    screenshotPlaceholder: {
+      status: 'ASSET PLACEHOLDER — SCREENSHOT NOT PROVIDED',
+      schematicTitle: 'UI WIREFRAME // BALANCE SUMMARY & LEDGER LOG',
+      rows: [
+        { label: 'SUMMARY_MODULE', value: 'NET_BALANCE = INCOME - EXPENSE' },
+        { label: 'HISTORY_LOG', value: 'TRANSACTION_ARRAY [PERSISTED]' },
+        { label: 'STORAGE_SCOPE', value: 'localStorage // USER_SCOPED_DATA' },
+      ],
+    },
+    links: {
+      githubProfile: 'https://github.com/rakinziyad30-bot',
+      repoUrl: 'https://github.com/rakinziyad30-bot/ExpensesTracker',
+      repoLabel: 'rakinziyad30-bot/ExpensesTracker',
+      demoUrl: 'https://rakinziyad30-bot.github.io/ExpensesTracker/',
+      demoLabel: 'rakinziyad30-bot.github.io/ExpensesTracker',
+      demoPlaceholderLabel: 'Live Demo [Placeholder — URL Not Provided]',
+    },
+  },
+  {
+    id: 'PRJ-03',
+    index: '03',
+    title: 'CRYPTO TRACKER',
+    category: 'API Integration // Asynchronous Data Interface',
+    layoutVariant: 'full-banner',
+    description:
+      'A cryptocurrency tracking interface built using Vite and JavaScript, integrating an external API to display cryptocurrency information.',
+    technologies: ['JavaScript', 'Vite', 'REST API'],
+    coreCapabilities: [
+      'Modern frontend bundling and development workflow using Vite',
+      'External REST API integration for fetching cryptocurrency data',
+      'Dynamic interface rendering for cryptocurrency information',
+    ],
+    architectureType: 'Vite Module Bundler + Asynchronous REST API Client',
+    screenshotPlaceholder: {
+      status: 'ASSET PLACEHOLDER — SCREENSHOT NOT PROVIDED',
+      schematicTitle: 'SYSTEM SCHEMATIC // VITE CLIENT ↔ EXTERNAL REST API',
+      rows: [
+        { label: 'BUILD_TOOLING', value: 'VITE // ES_MODULES' },
+        { label: 'DATA_PIPELINE', value: 'FETCH() -> EXTERNAL REST API -> JSON' },
+        { label: 'INTERFACE', value: 'CRYPTOCURRENCY INFORMATION DISPLAY' },
+      ],
+    },
+    links: {
+      githubProfile: 'https://github.com/rakinziyad30-bot',
+      repoUrl: 'https://github.com/rakinziyad30-bot/CryptoTracker',
+      repoLabel: 'rakinziyad30-bot/CryptoTracker',
+      demoUrl: 'https://rakinziyad30-bot.github.io/CryptoTracker/',
+      demoLabel: 'rakinziyad30-bot.github.io/CryptoTracker',
+      demoPlaceholderLabel: 'Live Demo [Placeholder — URL Not Provided]',
+    },
+  },
+  {
+    id: 'PRJ-04',
+    index: '04',
+    title: 'PARKING PROGRAM',
+    category: 'Object-Oriented Programming // Modular Java System',
+    layoutVariant: 'oop-blueprint',
+    description:
+      'A Java-based parking management program using separate classes for data management and program execution as an object-oriented programming exercise.',
+    technologies: ['Java', 'OOP'],
+    coreCapabilities: [
+      'Object-Oriented Programming (OOP) class separation architecture',
+      'Dedicated class for parking data management and state representation',
+      'Dedicated execution class handling program flow and runtime operations',
+    ],
+    architectureType: 'Multi-Class Java Object-Oriented Architecture',
+    screenshotPlaceholder: {
+      status: 'ASSET PLACEHOLDER — SCREENSHOT NOT PROVIDED',
+      schematicTitle: 'CLASS DIAGRAM // DATA MANAGEMENT ↔ PROGRAM EXECUTION',
+      rows: [
+        { label: 'CLASS_01', value: 'DataManagement.java [State & Entities]' },
+        { label: 'CLASS_02', value: 'ProgramExecution.java [Main Runtime]' },
+        { label: 'PARADIGM', value: 'Encapsulation & Separation of Concerns' },
+      ],
+    },
+    links: {
+      githubProfile: 'https://github.com/rakinziyad30-bot',
+      repoUrl: 'https://github.com/rakinziyad30-bot/ProgramParkir',
+      repoLabel: 'rakinziyad30-bot/ProgramParkir',
+      demoUrl: null,
+      demoLabel: null,
+      demoPlaceholderLabel: 'CLI / Java Program [No Web Demo Applicable]',
+    },
+  },
+];

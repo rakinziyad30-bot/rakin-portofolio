@@ -1,0 +1,48 @@
+:root {
+  /* STRICT 60:30:10 COLOR SYSTEM */
+  /* 60% — Warm Ivory (Primary surfaces, main background, spacious content areas) */
+  --color-ivory: #F5F2EA;
+  --color-ivory-muted: #EBE6DA;
+  --color-ivory-subtle: rgba(245, 242, 234, 0.88);
+
+  /* 30% — Charcoal (Typography, structural borders, dark sections, navigation) */
+  --color-charcoal: #222522;
+  --color-charcoal-muted: rgba(34, 37, 34, 0.72);
+  --color-charcoal-subtle: rgba(34, 37, 34, 0.16);
+  --color-charcoal-faint: rgba(34, 37, 34, 0.06);
+
+  /* 10% — Electric Olive (Buttons, active states, interactive elements, highlights) */
+  --color-olive: #B5C96B;
+  --color-olive-tint: rgba(181, 201, 107, 0.22);
+  --color-olive-border: rgba(181, 201, 107, 0.65);
+
+  /* TYPOGRAPHY */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* FLUID TYPE SCALE */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.35rem;     /* 21.6px */
+  --text-2xl: clamp(1.5rem, 2.5vw, 2.25rem);
+  --text-3xl: clamp(2rem, 3.8vw, 3.25rem);
+  --text-4xl: clamp(2.5rem, 5.2vw, 4.75rem);
+  --text-display: clamp(2.85rem, 6.8vw, 6.25rem);
+
+  /* SPACING & LAYOUT */
+  --container-max: 1380px;
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --section-py: clamp(5rem, 10vw, 8.5rem);
+  --border-thin: 1px solid var(--color-charcoal);
+  --border-Subtle: 1px solid var(--color-charcoal-subtle);
+  --border-thick: 2px solid var(--color-charcoal);
+
+  /* TRANSITIONS */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --transition-fast: 180ms var(--ease-out-expo);
+  --transition-base: 350ms var(--ease-out-expo);
+}
