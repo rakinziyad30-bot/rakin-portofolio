@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
 
         <div className="mono-label" style={{ color: 'rgba(245, 242, 234, 0.72)' }}>
-          BUILT WITH REACT, VITE &amp; FRAMER MOTION // 60:30:10 EDITORIAL SYSTEM
+          PLEASE CONTACT ME IF YOU INTERESTED
         </div>
       </div>
     </footer>
